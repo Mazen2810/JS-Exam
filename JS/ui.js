@@ -34,16 +34,16 @@ export class Display {
                         <img src="${meals[0].strMealThumb}" alt="" class="w-100 rounded-3">
                         <h2 class="text-white">${meals[0].strMeal}</h2>
                     </div>
-                    <div class="col-md-8 text-start">
+                    <div class="col-md-8 ">
                         <h2>Instructions</h2>
                         <p>${meals[0].strInstructions}</p>
-                        <h3> <span>Area : </span> ${meals[0].strArea}</h3>
-                        <h3> <span>Category : </span> ${meals[0].strCategory}</h3>
-                        <h3> Recipes :</h3>
+                        <h3 class="text-start"> <span>Area : </span> ${meals[0].strArea}</h3>
+                        <h3 class="text-start"> <span>Category : </span> ${meals[0].strCategory}</h3>
+                        <h3 class="text-start"> Recipes :</h3>
                         <ul class="d-flex g-3 flex-wrap">
                            ${ingredientList}
                         </ul>
-                        <h3>Tags :</h3>
+                        <h3 class="text-start">Tags :</h3>
                         <ul class="d-flex g-3 flex-wrap">
                            ${tags}
                         </ul>
