@@ -34,7 +34,7 @@ export class Display {
                         <img src="${meals[0].strMealThumb}" alt="" class="w-100 rounded-3">
                         <h2 class="text-white">${meals[0].strMeal}</h2>
                     </div>
-                    <div class="col-md-8">
+                    <div class="col-md-8 text-start">
                         <h2>Instructions</h2>
                         <p>${meals[0].strInstructions}</p>
                         <h3> <span>Area : </span> ${meals[0].strArea}</h3>
